@@ -1,0 +1,40 @@
+
+header {
+	background-color: yellow;
+	color:yellow;
+}
+
+body {
+	background: orange;
+}
+
+p {
+color:black;
+text-align: center;
+font-size: 20px
+}
+h1{
+	text-align: center;
+	color: darkorange
+	font-size:70 px;
+}
+.img{
+	width: 600px;
+	margin-left: 30%;
+}
+nav a {
+	margin:20px;
+	font-size:20px;
+	text-decoration:none;
+    color:black;
+    border:3px solid black;
+    border-radius: 10px
+    background-color: navy;
+}
+.glavnaya{
+	background-color: white;
+	color: royablue;
+}
+.timg{
+	margin-top: 5px;
+}
