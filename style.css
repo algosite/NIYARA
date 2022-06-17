@@ -31,10 +31,33 @@ nav a {
     border-radius: 10px
     background-color: navy;
 }
+nav a :hover {
+	font-size:40px;
+}
+
 .glavnaya{
 	background-color: white;
 	color: royablue;
 }
-.timg{
-	margin-top: 5px;
+nav {
+	display: flex;
+	justify-content: flex-start;
 }
+
+div {
+	display: flex;
+	justify-content: start;
+	justify-content: space-between;
+	}
+div img {
+	width: 25%;
+	height: 450px;
+	border: 20px dotted grey;
+    opacity: 0.5;
+}
+div img:hover {
+	opacity: 1;
+	width: 30%;
+	height: 500px;
+}
+
